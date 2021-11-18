@@ -1,0 +1,29 @@
+1.
+Question 1
+Area plots are stacked by default.
+
+True
+False
+
+ANS: True
+
+2.
+Question 2
+The following code will create a histogram of a pandas series, series_data, and align the bin edges with the horizontal tick marks.
+count, bin_edges = np.histogram(series_data)
+series_data.plot(kind='hist', xticks = count, bin_edges)
+
+True.
+False.
+
+ANS: False
+
+3.
+Question 3
+The following code will create a horizontal bar chart of the data in a pandas dataframe, question.
+question.plot(type='bar', rot=90)
+
+True.
+False.
+
+ANS: False
